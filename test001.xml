@@ -81,7 +81,7 @@
                                                                 <field name="ACTION">ON</field>
                                                                 <value name="LED">
                                                                   <block type="math_number" id="26">
-                                                                    <field name="NUM">10</field>
+                                                                    <field name="NUM">0</field>
                                                                   </block>
                                                                 </value>
                                                               </block>
@@ -98,12 +98,30 @@
                                                                   </block>
                                                                 </value>
                                                                 <next>
-                                                                  <block type="oled_cleardisplay" id="124">
+                                                                  <block type="movement_forward" id="143">
                                                                     <next>
-                                                                      <block type="oled_drawtext" id="133">
-                                                                        <field name="TEXT">troll</field>
+                                                                      <block type="robot_delay" id="154" inline="true">
+                                                                        <value name="DELAY">
+                                                                          <block type="math_number" id="161">
+                                                                            <field name="NUM">20000</field>
+                                                                          </block>
+                                                                        </value>
                                                                         <next>
-                                                                          <block type="movement_stop" id="27"></block>
+                                                                          <block type="movement_setmotors" id="178" inline="true">
+                                                                            <value name="BOTHMOVLEFT">
+                                                                              <block type="math_number" id="185">
+                                                                                <field name="NUM">100</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <value name="BOTHMOVRIGHT">
+                                                                              <block type="math_number" id="199">
+                                                                                <field name="NUM">100</field>
+                                                                              </block>
+                                                                            </value>
+                                                                            <next>
+                                                                              <block type="movement_stop" id="27"></block>
+                                                                            </next>
+                                                                          </block>
                                                                         </next>
                                                                       </block>
                                                                     </next>
