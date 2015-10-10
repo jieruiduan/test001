@@ -126,12 +126,8 @@
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
-                                                                                  <block type="expansion_elevation" id="249" inline="true">
-                                                                                    <value name="NUMBER">
-                                                                                      <block type="math_number" id="256">
-                                                                                        <field name="NUM">1000</field>
-                                                                                      </block>
-                                                                                    </value>
+                                                                                  <block type="multimedia_playwav" id="263">
+                                                                                    <field name="WAV">hi, here comes the monster truck</field>
                                                                                     <next>
                                                                                       <block type="movement_stop" id="27"></block>
                                                                                     </next>
