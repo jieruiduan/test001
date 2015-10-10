@@ -1,1 +1,6 @@
-<xml xmlns="http://www.w3.org/1999/xhtml"></xml>
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <block type="movement_forward" id="10" x="-3" y="1"></block>
+  <block type="math_number" id="24" x="84" y="2">
+    <field name="NUM">100</field>
+  </block>
+</xml>
