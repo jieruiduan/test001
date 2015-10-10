@@ -15,6 +15,32 @@
         <next>
           <block type="oled_drawtext" id="57" collapsed="true">
             <field name="TEXT">hi my name is jierui</field>
+            <next>
+              <block type="movement_forward" id="117">
+                <next>
+                  <block type="robot_delay" id="119" inline="true">
+                    <value name="DELAY">
+                      <block type="math_number" id="126">
+                        <field name="NUM">2000</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="movement_reverse" id="136">
+                        <next>
+                          <block type="robot_delay" id="147" inline="true">
+                            <value name="DELAY">
+                              <block type="math_number" id="154">
+                                <field name="NUM">2000</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
           </block>
         </next>
       </block>
