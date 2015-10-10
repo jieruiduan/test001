@@ -67,20 +67,20 @@
                                                       </block>
                                                     </value>
                                                     <next>
-                                                      <block type="controls_repeat" id="45" inline="true">
+                                                      <block type="controls_repeat" id="22" inline="true">
                                                         <value name="TIMES">
-                                                          <block type="math_number" id="52">
+                                                          <block type="math_number" id="23">
                                                             <field name="NUM">5</field>
                                                           </block>
                                                         </value>
                                                         <statement name="DO">
-                                                          <block type="oled_color" id="93">
+                                                          <block type="oled_color" id="24">
                                                             <field name="OBJECT">GREEN</field>
                                                             <next>
-                                                              <block type="led_select" id="76" inline="true">
+                                                              <block type="led_select" id="25" inline="true">
                                                                 <field name="ACTION">ON</field>
                                                                 <value name="LED">
-                                                                  <block type="math_number" id="100">
+                                                                  <block type="math_number" id="26">
                                                                     <field name="NUM">10</field>
                                                                   </block>
                                                                 </value>
@@ -89,7 +89,7 @@
                                                           </block>
                                                         </statement>
                                                         <next>
-                                                          <block type="movement_stop" id="23"></block>
+                                                          <block type="movement_stop" id="27"></block>
                                                         </next>
                                                       </block>
                                                     </next>
