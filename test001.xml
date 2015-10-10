@@ -74,13 +74,18 @@
                                                           </block>
                                                         </value>
                                                         <statement name="DO">
-                                                          <block type="led_select" id="76" inline="true">
-                                                            <field name="ACTION">FLASH</field>
-                                                            <value name="LED">
-                                                              <block type="math_number" id="84">
-                                                                <field name="NUM">10</field>
+                                                          <block type="oled_color" id="93">
+                                                            <field name="OBJECT">GREEN</field>
+                                                            <next>
+                                                              <block type="led_select" id="76" inline="true">
+                                                                <field name="ACTION">FLASH</field>
+                                                                <value name="LED">
+                                                                  <block type="math_number" id="100">
+                                                                    <field name="NUM">10</field>
+                                                                  </block>
+                                                                </value>
                                                               </block>
-                                                            </value>
+                                                            </next>
                                                           </block>
                                                         </statement>
                                                         <next>
