@@ -126,7 +126,16 @@
                                                                                   </block>
                                                                                 </value>
                                                                                 <next>
-                                                                                  <block type="movement_stop" id="27"></block>
+                                                                                  <block type="expansion_elevation" id="249" inline="true">
+                                                                                    <value name="NUMBER">
+                                                                                      <block type="math_number" id="256">
+                                                                                        <field name="NUM">100</field>
+                                                                                      </block>
+                                                                                    </value>
+                                                                                    <next>
+                                                                                      <block type="movement_stop" id="27"></block>
+                                                                                    </next>
+                                                                                  </block>
                                                                                 </next>
                                                                               </block>
                                                                             </next>
